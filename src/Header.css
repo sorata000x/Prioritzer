@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+}
+
+.user_btn {
+  width: 50px;
+}
+
+.user_btn:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: blue;
+}

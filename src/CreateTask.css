@@ -1,0 +1,79 @@
+.create_task_container {
+  position: absolute;
+  display: flex;
+  align-content: stretch;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.new_task {
+  background-color: rgb(240, 240, 240);
+  padding-top: 7px;
+  padding-left: 35px;
+  height: 40px;
+}
+
+.filter_popup {
+  background-color: rgba(0, 0, 0, 0.8);
+  flex: 1 1 auto;
+}
+
+.create_task_popup {
+  flex: 1 1 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 60vw;
+}
+
+.create_task_popup > form {
+  text-align: left;
+  display: grid;
+  grid: repeat(6, 30px) / repeat(2, 50%);
+  gap: 30px;
+  margin: 5%;
+  width: 85%;
+  height: auto;
+}
+
+.form-control {
+  height: 30px;
+}
+
+.item-w1 {
+  grid-column: 1;
+}
+
+.item-w2 {
+  grid-column: 1 / span 2;
+}
+
+.description {
+  height: 100px;
+  grid-row: auto / span 3;
+}
+
+.action {
+  position: fixed;
+  bottom: 0;
+}
+
+.abtn {
+  width: 70px;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.abtn_add {
+  background-color: gray;
+  border: 2px solid gray;
+  color: white;
+  margin-left: 26px;
+}
+
+.abtn_cancel {
+  border: 2px solid gray;
+  background-color: white;
+}

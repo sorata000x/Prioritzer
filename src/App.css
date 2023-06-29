@@ -1,0 +1,7 @@
+.new_task_btn {
+  border: none;
+  border-radius: 30px;
+  background-color: gray;
+  color: white;
+  margin: 10px;
+}
