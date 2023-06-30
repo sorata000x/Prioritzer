@@ -65,7 +65,7 @@ function Tasks() {
           </IconButton>
 
           <th scope="row">{i}</th>
-          <td>{task.taskTitle}</td>
+          <td>{task.title}</td>
           <td>{task.progress}</td>
           <td>{task.labels}</td>
           <td>{task.duration}</td>

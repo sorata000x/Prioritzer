@@ -25,6 +25,7 @@ const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
     case "SET_TASKS":
+      console.log(`set tasks to: ${JSON.stringify(action.tasks)}`)
       setTasks(action.tasks);
       return {
         ...state,

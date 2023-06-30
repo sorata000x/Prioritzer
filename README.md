@@ -3,7 +3,12 @@ A web app that calculates the importance and put tasks to their priorities.
 
 (06/29/2023)
 
-Maybe just give each task a menu so I don't need to pass things around?
+Implemented task setting menu.
+I wasn't thinking about having a sortable task table but I think it will be helpful if I want to implement train mode where user can toggle and train the AI (which is not implemented yet) to learn the priority of tasks by changing the order of the tasks.
+So I decided to implement a sortable table. I searched for React sortable table and eventually found the package @dnd-kit as well as an example of draggable table where I can use.
+I had to figure out what kind of parameters it is expecting, and in the process I learned a lot of things including react-table.
+It took me a long time to get it work in my app, and although there are many things that need to improve (like the ceil size when dragging and the border color), I am glad that I got it worked.
+I have documented the reference in my Notion and I think I will also add in the app documentation.
 
 (06/28/2023)
 

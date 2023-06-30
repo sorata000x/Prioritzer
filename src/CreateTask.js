@@ -14,7 +14,7 @@ function CreateTask() {
       type: "ADD_NEW_TASK",
       task: {
         id: uuid(),
-        taskTitle: e.target[0].value,
+        title: e.target[0].value,
         progress: 0,
         labels: e.target[1].value,
         duration: e.target[2].value,

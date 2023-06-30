@@ -1,0 +1,12 @@
+.static-data {
+  background: white;
+  &:first-of-type {
+    min-width: 20ch;
+  }
+}
+
+.static-table-row {
+  box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px,
+    rgb(0 0 0 / 30%) 0px 10px 10px -5px;
+  outline: #3e1eb3 solid 1px;
+}
