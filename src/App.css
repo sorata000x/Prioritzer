@@ -5,3 +5,16 @@
   color: white;
   margin: 10px;
 }
+
+.train_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+}

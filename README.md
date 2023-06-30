@@ -1,6 +1,27 @@
 # Prioritzer
 A web app that calculates the importance and put tasks to their priorities.
 
+### Feature
+
+Task Page
+  - New task button to Create Task Page
+  - Create Task Page to add new task
+  - Display created tasks
+    - Sortable tasks (planning for training mode only)
+
+Header
+  - Navigate to login page
+  - Logout button
+
+Login Page
+  - Login or register with email and password
+
+### To Do
+
+- Learn Tensorflow to see if I can use it to train an AI to sort the tasks based on their properties.
+
+### Dev Notes
+
 (06/29/2023)
 
 Implemented task setting menu.

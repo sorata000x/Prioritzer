@@ -11,6 +11,7 @@ import Login from './Login';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from './firebase';
 import SortableTasks from './SortableTasks';
+import ToggleSwitch from './components/ToggleSwitch';
 
 function App() {
   const [{tasks, user}, dispatch] = useStateValue();
@@ -60,18 +61,6 @@ function App() {
       <Router>
         <Routes>
           <Route
-            path="/test"
-            element={
-              <>
-                <Header />
-                <Link to="/createTask">
-                  <button className="new_task_btn"> New Task </button>
-                </Link>
-                <SortableTasks />
-              </>
-            }
-          />
-          <Route
             path="/"
             element={
               <>
@@ -88,9 +77,15 @@ function App() {
             element={
               <>
                 <Header />
-                <Link to="/createTask">
-                  <button className="new_task_btn"> New Task </button>
-                </Link>
+                <div className='btn_container'>
+                  <Link to="/createTask">
+                    <button className="new_task_btn"> New Task </button>
+                  </Link>
+                  <div className='train_container'>
+                    <div>Training Mode</div>
+                    <ToggleSwitch />
+                  </div>
+                </div>
                 <SortableTasks />
               </>
             }
